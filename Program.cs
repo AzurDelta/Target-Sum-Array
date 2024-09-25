@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Target_Sum_Array;
 
-Console.WriteLine("Hello, World!");
+var res1 = TargetSumm.TargetSummArray([1, 2, 3], 4);
+var res2 = TargetSumm.TargetSummArray([3, 2, 4], 6);
+
+Console.WriteLine(res1);
+Console.WriteLine(res2);
